@@ -1,0 +1,125 @@
+/*********************************
+TABLET
+*********************************/
+@media screen and (min-width:460px) {
+
+/*------GENERAL------*/
+	#wrapper,
+	form {
+			max-width: 600px;
+			margin: 0 auto;
+			padding: 1em;
+	}
+
+	.signup h2 {
+  	font-size: 1.5em;
+  	margin-bottom: 8px;
+  }
+
+  .signup p {
+  	margin: 0;
+  	font-size: 1.1em;
+  	padding-top: 10px;
+  	padding-bottom: 30px;
+  }
+
+/*------CONTACT------*/
+  .contact-info input,
+  .contact-info select {
+    display: block;
+    width: 75%;
+  }
+  .contact-info label {
+		float: left;
+		display: inline-block;
+		width: 25%;	
+	}
+
+	#zipcode {
+		width: 25%;
+	}
+
+		/*------FOOTER------*/
+	footer {
+		width: 100%;
+		background: #03C9A9;
+	}
+	
+	footer p {
+		color: #fff;
+		padding: 30px 0;
+		margin: 50px 0 0 0;
+	}
+
+}
+
+
+
+/*********************************
+DESKTOP
+**********************************/
+
+@media screen and (min-width:760px) {
+body {
+	background-color: white;
+}
+
+/*------GENERAL------*/
+	#wrapper,
+	form {
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 0;
+	}
+
+	.contact-info label {
+		font-weight: 600;
+		margin: 20px 0 0;
+	}
+
+/*------HEADING------*/
+
+  .signup {
+  	padding: 50px;
+  }
+
+  .signup h2 {
+  	font-size: 1.8em;
+  	margin-bottom: 8px;
+  }
+  .signup p {
+  	margin: 0;
+  	font-size: 1.3em;
+  }
+
+
+	
+/*------CONTACT------*/
+  .contact-info input,
+  .contact-info select {
+    display: block;
+    width: 75%;
+  }
+  .contact-info label {
+		float: left;
+		display: inline-block;
+		width: 25%;	
+	}
+
+	#zipcode {
+		width: 25%;
+	}
+
+
+	/*------FOOTER------*/
+	footer {
+		width: 100%;
+		background: #03C9A9;
+	}
+	
+	footer p {
+		color: #fff;
+		padding: 30px 0;
+		margin: 50px 0 0 0;
+	}
+}
