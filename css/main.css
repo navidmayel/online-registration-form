@@ -12,7 +12,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+legend {
 	font-family: 'Merriweather', serif;
 }
 
@@ -64,7 +65,12 @@ fieldset {
 }
 
 
-
+legend {
+	font-size: 1.3em;
+	font-weight: bold;
+	padding: 20px 0 20px;
+	/*margin-top: 30px;*/
+}
 
 /******************************
 HEADING
@@ -165,11 +171,21 @@ button {
 	font-family: 'Merriweather', serif;
 }
 
+button:hover {
+	background-color: rgba(3,201,169, 0.8);
+	transition: 0.4s ease-in-out;
+}
+
 input:focus {
 	background-color: #dde4e6;
 	border: 1px solid rgb(3, 201, 169);
+	transition: 0.4s ease-in-out;
 }
 
+textarea:focus {
+	transition: 0.4s ease-in-out;
+
+}
 /*********************************
 FOOTER
 **********************************/
@@ -188,7 +204,8 @@ COLORS
 
 /*------GENERAL------*/
 
-h2 {
+h2,
+legend {
 	color: #03C9A9;
 }
 
